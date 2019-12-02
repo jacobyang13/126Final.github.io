@@ -1,17 +1,66 @@
 /* All your custom styles go here. You can override the default Bootstrap styles or add your own custom styles for elements, classes, or IDs.  */
-
+*{
+  
+}
 body {
   background: #e5e5e5;
-}
 
+}
+#homePage{
+  background-image: url('homePage.jpeg');
+  background-size: cover;
+  width: 100%;
+  background-position: center center;
+  background-attachment: fixed;
+}
+#title{
+  background-color:rgba(255,255,255,.7);
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+h1{
+/* margin-left: 20vw; */
+text-align: center;
+font-family: Noteworthy;
+font-weight: bold;
+
+
+}
+.fa-star{
+color: #ffd800;
+}
+#signUp{
+  border: 1px solid black;
+  border-radius: 10px;
+
+}
+#signUp2{
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+}
+h2{
+  text-align: center;
+font-family: Noteworthy;
+font-size: 18px;
+}
 .card-header {
   font-size: 2.5em;
 }
 
 .navbar {
   background: #fdf9f3;
+  
 }
-
+#moveBottom{
+  margin-top: 40vh;
+}
+.moveRight{
+  margin-left: 13vw;
+}
+#review{
+  color:white;
+}
 .navbar-brand {
   visibility: hidden;
 }
@@ -21,9 +70,13 @@ body {
 }
 
 .card {
-  background: #eee7ec;
-  min-height: 200px;
+  min-height: 25vh;
+  min-width: 25vw;
+  max-width: 30vw;
+  background-color: rgba(0,0,0,.6);
+
 }
+.card-header, .card-footer{opacity:1};
 
 form {
   margin-top: 75px;
@@ -56,8 +109,12 @@ form {
     visibility: visible;
   }
 
+  .moveRight{
+    margin-left: 8vw;
+  }
   .card {
     min-height: 0;
+    max-width: 40vw;
   }
 
   form {
