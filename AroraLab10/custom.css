@@ -1,0 +1,67 @@
+/* All your custom styles go here. You can override the default Bootstrap styles or add your own custom styles for elements, classes, or IDs.  */
+
+body {
+  background: #e5e5e5;
+}
+
+.card-header {
+  font-size: 2.5em;
+}
+
+.navbar {
+  background: #fdf9f3;
+}
+
+.navbar-brand {
+  visibility: hidden;
+}
+
+.col-sm {
+  background: #e5e5e5;
+}
+
+.card {
+  background: #eee7ec;
+  min-height: 200px;
+}
+
+form {
+  margin-top: 75px;
+  display: inline-block;
+  width: 80%;
+}
+
+.btn {
+  background: #571a44;
+  border: none;
+}
+
+.btn:hover {
+  background: #cbb9c7;
+  color: black;
+}
+
+.footer-card {
+  background: #fdf9f3;
+}
+
+.footer-title {
+  background: #f5f1eb;
+  padding: 1em;
+  border-bottom: 1px solid #d6d3ce;
+}
+
+@media only screen and (max-width: 576px) {
+  .navbar-brand {
+    visibility: visible;
+  }
+
+  .card {
+    min-height: 0;
+  }
+
+  form {
+    margin-top: 0;
+    width: 40%;
+  }
+}
