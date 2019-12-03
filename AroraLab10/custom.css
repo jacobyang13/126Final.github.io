@@ -199,9 +199,13 @@ form {
 
 @media only screen and (max-width: 576px) {
   .navbar-brand {
-    visibility: visible;
+    visibility: hidden;
   }
+  #signUp{
 
+    border: none;
+  
+  }
   .moveRight{
     margin-left: 8vw;
   }
