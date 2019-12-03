@@ -4,7 +4,7 @@
 }
 
 body {
-background-color: #fdf9f3;
+background-color:
 
 }
 .galleryBody{
@@ -13,12 +13,19 @@ background-color: #fdf9f3;
 
 
 #aboutC{
-  margin-top: 50px;
   min-width: 100vw;
   background-color:white;
   border-radius: 0;
   text-align: center;
 
+}
+
+#aboutC2{
+  margin-top: 50px;
+  min-width: 100vw;
+  background-color:
+  border-radius: 0;
+  text-align: center;
 }
 h3{
   font-weight: 100;
