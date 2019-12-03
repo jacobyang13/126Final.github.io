@@ -3,21 +3,33 @@
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-body {
-background-color:
-
+body,
+html {
+  height: 100%;
+  margin: 0;
+  /* use the following only if you are able to scroll past the image to see a white area (this is the <body> peeking out) above or below the image */
+}
+.borderLine{
+  border: .8px solid black;
 }
 #reviewCard{
   min-height: 30vh;
-  min-width: 50vw;
-  background-color: rgba(0,0,0,.7);
+  min-width: 51vw;
+  background-color: white;
   border-radius: 0;
+  
   float:left;
+}
+#reviewS{
+  font-size: 18px;
+  color:black;
+  
 }
 #reviewAlt{
   min-height: 30vh;
-  min-width: 50vw;
-  background-color: rgba(0,0,0,.9);
+  min-width: 51vw;
+  color:black;
+  background-color: white;
   border-radius: 0;
   float:left;
 }
