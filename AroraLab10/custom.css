@@ -1,11 +1,91 @@
 /* All your custom styles go here. You can override the default Bootstrap styles or add your own custom styles for elements, classes, or IDs.  */
 *{
-  
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 body {
-  background: #e5e5e5;
+background-color: #fdf9f3;
 
 }
+.galleryBody{
+  background-color:#cfccc4;
+}
+
+
+#aboutC{
+  margin-top: 50px;
+  min-width: 100vw;
+  background-color:white;
+  border-radius: 0;
+  text-align: center;
+
+}
+h3{
+  font-weight: 100;
+  font-size: 60px;
+}
+.who{
+  float:left;
+  margin-top:10px;
+  margin-bottom: 30px;
+  padding-left: 50px;
+  font-weight: 100;
+  width: 50vw;
+  font-size: 18px;
+}
+.mission{
+  float:left;
+  margin-top:10px;
+  margin-bottom: 30px;
+  font-weight: 100;
+  padding-right:50px;
+  width:50vw;
+  font-size: 18px;
+}
+#aboutC img{
+  width: 100%;
+  /* height: 600px; */
+}
+.aboutPicture{
+  
+}
+#galleryTop{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid grey;
+text-align: center;
+}
+
+.carousel{
+  background-color:#cfccc4;
+  height: 100%;
+  margin: auto;
+}
+.carousel-item img{
+  margin: auto;
+  overflow: hidden;
+  max-width: 500px; 
+  max-height: 500px;
+}
+.contact{
+  background-color: #fdf9f3;;
+}
+iframe{
+  width: 100%;
+  height: 100vh;
+}
+.contactName{
+  font-family: Noteworthy;
+  font-weight: bold;
+}
+#contactCard{ 
+min-width: 51vw;
+min-height: 20vh;
+border-radius: 0px;
+border: none;
+border-top: 1px solid grey;
+border-bottom: 1px solid grey;
+background: #fdf9f3}
 #homePage{
   background-image: url('homePage.jpeg');
   background-size: cover;
@@ -47,7 +127,9 @@ font-size: 18px;
 .card-header {
   font-size: 2.5em;
 }
-
+.nav-item{
+  padding-right: 6px;
+}
 .navbar {
   background: #fdf9f3;
   
@@ -60,6 +142,10 @@ font-size: 18px;
 }
 #review{
   color:white;
+}
+#reviewCenter{
+  text-align: center;
+
 }
 .navbar-brand {
   visibility: hidden;
