@@ -7,11 +7,37 @@ body {
 background-color:
 
 }
+#reviewCard{
+  min-height: 30vh;
+  min-width: 50vw;
+  background-color: rgba(0,0,0,.7);
+  border-radius: 0;
+  float:left;
+}
+#reviewAlt{
+  min-height: 30vh;
+  min-width: 50vw;
+  background-color: rgba(0,0,0,.9);
+  border-radius: 0;
+  float:left;
+}
 .galleryBody{
   background-color:#cfccc4;
 }
-
-
+.signUp{
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+h4{
+  margin-left: 5vw;
+}
+#h8{
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  font-size: 50px;
+  text-align: center;;
+}
 #aboutC{
   min-width: 100vw;
   background-color:white;
@@ -23,7 +49,6 @@ background-color:
 #aboutC2{
   margin-top: 50px;
   min-width: 100vw;
-  background-color:
   border-radius: 0;
   text-align: center;
 }
@@ -205,6 +230,9 @@ form {
 
     border: none;
   
+  }
+  #formS{
+    margin-left:5vw;
   }
   .moveRight{
     margin-left: 8vw;

@@ -40,98 +40,59 @@
                 <a class="nav-link" href="gallery.html">Gallery</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link active" href="reviews.html">Reviews</a>
+                  <a class="nav-link" href="reviews.html">Reviews</a>
                 </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="signUp.html" id = "signUp">Sign Up</a>
+              <a class="nav-link active" href="signUp.html" id = "signUp">Sign Up</a>
             </li>
           </ul>
         </div>
-        <a class="navbar-brand" href="#home" id = "signUp2">Sign Up</a>
+        <a class="navbar-brand" href="#signup" id = "signUp2">Sign Up</a>
 
     </nav>
-    <div>
-        <div>
-          <h3 id = "h8">
-          Reviews
-          </h3>
-        </div>
-    <div id = "">
-        <div class = "row">
-          <div class = "" >
-      
-      
-          <div class="card" id = "reviewAlt">
-      
-              <div class="card-body">
-                <h6 class="card-title" id = "review">AEPi</h6>
-                <i class = "fas fa-star fa-xs"></i><i class = "fas fa-star fa-xs"></i><i class = "fas fa-star fa-xs"></i><i class = "fas fa-star fa-xs"></i><i class = "fas fa-star fa-xs"></i>
-                <p class="card-text" id = "review">
-                  We highly recommend the "as Clean as a Whistle" cleaning service! They provide a cheap alternative to other cleaning services we have hired in the past.
-                </p>
-              </div>
-            </div>
-          </div>
-          
-          <div class = "" >
-            <div class="card" id = "reviewCard">
-                <div class="card-body">
-                  <h6 class="card-title" id = "review">Jacob Gersfeld</h6>
-                  <i class = "fas fa-star fa-xs"></i><i class = "fas fa-star fa-xs"></i><i class = "fas fa-star fa-xs"></i><i class = "fas fa-star fa-xs"></i><i class = "fas fa-star fa-xs"></i>
-                  <p class="card-text" id = "review">
-                 Phil and Fine were great! I didn't expect my filthy house to become spotless for so cheap.
-                  </p>
-                </div>
-              </div>
-              </div>
-              <div class="card" id = "reviewCard">
-      
-                  <div class="card-body">
-                    <h6 class="card-title" id = "review">Cole Draper</h6>
-                   <i class = "fas fa-star fa-xs"></i><i class = "fas fa-star fa-xs"></i><i class = "fas fa-star fa-xs"></i><i class = "fas fa-star fa-xs"></i>
-                    <p class="card-text" id = "review">
-                      Heard about the two through a mutual friend, they performed a decent job, but don't expect your place to be cleaned perfectly.
-                    </p>
-                  </div>
-                </div>
-                <div class="card" id = "reviewAlt">
-      
-                    <div class="card-body">
-                      <h6 class="card-title" id = "review">Chloe Arrojado</h6>
-                      <i class = "fas fa-star fa-xs"></i><i class = "fas fa-star fa-xs"></i><i class = "fas fa-star fa-xs"></i><i class = "fas fa-star fa-xs"></i><i class = "fas fa-star fa-xs"></i>
-                      <p class="card-text" id = "review">
-                        Cheap, quick, and loved the conversations with the guys.
-                      </p>
-                    </div>
-                  </div>
-                  <div class="card" id = "reviewAlt">
-      
-                      <div class="card-body">
-                        <h6 class="card-title" id = "review"></h6>
-                        <p class="card-text" id = "review">
-                        </p>
-                      </div>
-                    </div>
-                    <div class="card" id = "reviewCard">
-      
-                        <div class="card-body">
-                          <h6 class="card-title" id = "review"></h6>
-                         
-                          <p class="card-text" id = "review">
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  
-                </div>
-              </div>
-              
-        </div>
+    <div class = "signUp">
+      <div>
+        <h4>
+          If you would like to use our cleaning service, please fill out the form below or contact us via phone/email.
+        </h4>
       </div>
+        <form id = "formS">
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Name</label>
+                <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="First Last">
+              </div>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Cleaner</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>Both</option>
+                  <option>Philip</option>
+                  <option>David</option>
+                </select>
+              </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Any extra details?</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" onClick = "myFunction()" >Submit</button>
+           
+
+<script>
+function myFunction() {
+  alert("Your form successfully submitted!");
+}
+</script>
+
+          </form>
+    </div>
+
+ 
     <!-- ADD ALL YOUR CONTENT HERE, ABOVE THE <script> ELEMENTS BELOW. Don't forget to wrap everything in a .container or .container-fluid! After that: rows, columns, and content.  -->
 
     <!-- NECESSARY <script> LINKS. The three <script> links below add jQuery, popper.js, and Bootstrap 4 JavaScript. These are libraries of scripts that are necessary to make Bootstrap's interactive and animated components work (e.g., dropdown menus, buttons, alerts, carousels, collapsing navbars and content areas, modals, popups, tooltips, etc). These three <script> links MUST appear in THIS ORDER; this is because both popper.js and the Bootstrap scripts rely on jQuery to work, so jQuery must load into your page first. We add these links at the bottom of the <body> element instead of in the <head> element so the scripts won't be loaded into your site until they're needed, which helps with your site's speed and functionality. -->
