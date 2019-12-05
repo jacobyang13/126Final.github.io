@@ -14,7 +14,7 @@ html {
 }
 #reviewCard{
   min-height: 30vh;
-  min-width: 51vw;
+  min-width: 50%;
   background-color: white;
   border-radius: 0;
   
@@ -27,8 +27,8 @@ html {
 }
 #reviewAlt{
   min-height: 30vh;
-  min-width: 51vw;
-  color:black;
+  min-width: 50%;
+
   background-color: white;
   border-radius: 0;
   float:left;
@@ -123,12 +123,13 @@ iframe{
   font-weight: bold;
 }
 #contactCard{ 
-min-width: 51vw;
+min-width: 50%;
 min-height: 20vh;
 border-radius: 0px;
 border: none;
 border-top: 1px solid grey;
 border-bottom: 1px solid grey;
+border-right: 1px solid gray;
 background: #fdf9f3}
 #homePage{
   background-image: url('homePage.jpeg');
