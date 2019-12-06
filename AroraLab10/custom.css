@@ -41,8 +41,11 @@ html {
   margin-right: 20px;
   margin-left: 20px;
 }
+#gallery{
+  font-size: 60px;
+}
 h4{
-  margin-left: 5vw;
+
 }
 #h8{
   margin-top: 3vh;
